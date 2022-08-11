@@ -28,10 +28,10 @@ final class CoordinatorImpl: Coordinator {
     
     func start(from viewController: UIViewController, delegate: VeriffCoordinatorDelegate) {
         self.delegate = delegate
-        
-        guard let navigationController = navigationController else { return }
+        let navigationController = UINavigationController()
         guard let predictionViewController  = builder?.createSelfieModule(coordinator: self) else { return }
         navigationController.viewControllers = [predictionViewController]
+        viewController.present(navigationController, animated: true)
     }
     
     func didFinishFaceRecognition(result: Result<UIImage,ErrorReason>) {

@@ -10,12 +10,10 @@ import UIKit
 
 final class VeriffSDKImpl: Veriff.SDK {
     
-    private var builder: Builder?
     private var coordinator: Coordinator?
     var delegate: Veriff.Delegate?
     
-    public init(builder: Builder, coordinator: Coordinator) {
-        self.builder = builder
+    public init(coordinator: Coordinator) {
         self.coordinator = coordinator
     }
     

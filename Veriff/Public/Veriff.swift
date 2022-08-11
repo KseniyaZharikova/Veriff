@@ -11,6 +11,12 @@ import UIKit
 public enum Veriff {
     public typealias SDK = VeriffSDK
     public typealias Delegate = VeriffSDKDelegate
+    
+    public static var shared: SDK = {
+        let builder = BuilderImpl()
+        let coordinator = CoordinatorImpl(builder: builder)
+        return VeriffSDKImpl(coordinator: coordinator)
+    }()
 }
 
 public protocol VeriffSDK {
