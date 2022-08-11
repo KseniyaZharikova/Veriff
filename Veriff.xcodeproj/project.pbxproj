@@ -10,6 +10,20 @@
 		18C0701928A5128100C2CD0B /* Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0701028A5128100C2CD0B /* Veriff.framework */; };
 		18C0701E28A5128100C2CD0B /* VeriffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0701D28A5128100C2CD0B /* VeriffTests.swift */; };
 		18C0701F28A5128100C2CD0B /* Veriff.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C0701328A5128100C2CD0B /* Veriff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18C0704028A5135F00C2CD0B /* Ext+ UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702928A5135F00C2CD0B /* Ext+ UIViewController.swift */; };
+		18C0704128A5135F00C2CD0B /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702B28A5135F00C2CD0B /* CoordinatorImpl.swift */; };
+		18C0704228A5135F00C2CD0B /* BuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702D28A5135F00C2CD0B /* BuilderImpl.swift */; };
+		18C0704328A5135F00C2CD0B /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702F28A5135F00C2CD0B /* Detector.swift */; };
+		18C0704428A5135F00C2CD0B /* Veriff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703128A5135F00C2CD0B /* Veriff.swift */; };
+		18C0704528A5135F00C2CD0B /* VeriffSDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703228A5135F00C2CD0B /* VeriffSDKImpl.swift */; };
+		18C0704628A5135F00C2CD0B /* SelfiePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703628A5135F00C2CD0B /* SelfiePresenterImpl.swift */; };
+		18C0704728A5135F00C2CD0B /* SelfieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0703828A5135F00C2CD0B /* SelfieViewController.xib */; };
+		18C0704828A5135F00C2CD0B /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703928A5135F00C2CD0B /* SelfieViewController.swift */; };
+		18C0704928A5135F00C2CD0B /* PassportPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */; };
+		18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703E28A5135F00C2CD0B /* PassportViewController.swift */; };
+		18C0704B28A5135F00C2CD0B /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0703F28A5135F00C2CD0B /* PassportViewController.xib */; };
+		24A79BB1FBC054EB77DADAFA /* Pods_Veriff_VeriffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */; };
+		AE95FC483A0E574F62DF7545 /* Pods_Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05904F24766112D91F7C231 /* Pods_Veriff.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +41,24 @@
 		18C0701328A5128100C2CD0B /* Veriff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Veriff.h; sourceTree = "<group>"; };
 		18C0701828A5128100C2CD0B /* VeriffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C0701D28A5128100C2CD0B /* VeriffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriffTests.swift; sourceTree = "<group>"; };
+		18C0702928A5135F00C2CD0B /* Ext+ UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+ UIViewController.swift"; sourceTree = "<group>"; };
+		18C0702B28A5135F00C2CD0B /* CoordinatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
+		18C0702D28A5135F00C2CD0B /* BuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuilderImpl.swift; sourceTree = "<group>"; };
+		18C0702F28A5135F00C2CD0B /* Detector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		18C0703128A5135F00C2CD0B /* Veriff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Veriff.swift; sourceTree = "<group>"; };
+		18C0703228A5135F00C2CD0B /* VeriffSDKImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriffSDKImpl.swift; sourceTree = "<group>"; };
+		18C0703628A5135F00C2CD0B /* SelfiePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfiePresenterImpl.swift; sourceTree = "<group>"; };
+		18C0703828A5135F00C2CD0B /* SelfieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieViewController.xib; sourceTree = "<group>"; };
+		18C0703928A5135F00C2CD0B /* SelfieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
+		18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportPresenterImpl.swift; sourceTree = "<group>"; };
+		18C0703E28A5135F00C2CD0B /* PassportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
+		18C0703F28A5135F00C2CD0B /* PassportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassportViewController.xib; sourceTree = "<group>"; };
+		1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.debug.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff_VeriffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.release.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.release.xcconfig"; sourceTree = "<group>"; };
+		A09BDABB46560C35028519E3 /* Pods-Veriff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.debug.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.debug.xcconfig"; sourceTree = "<group>"; };
+		C05904F24766112D91F7C231 /* Pods_Veriff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB2E49E3A23235514A2C80C /* Pods-Veriff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.release.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE95FC483A0E574F62DF7545 /* Pods_Veriff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C0701928A5128100C2CD0B /* Veriff.framework in Frameworks */,
+				24A79BB1FBC054EB77DADAFA /* Pods_Veriff_VeriffTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +85,17 @@
 		18C0700628A5128100C2CD0B = {
 			isa = PBXGroup;
 			children = (
+				18C0702C28A5135F00C2CD0B /* Builder */,
+				18C0702A28A5135F00C2CD0B /* Cordinator */,
+				18C0702E28A5135F00C2CD0B /* Detector */,
+				18C0702828A5135F00C2CD0B /* Extension */,
+				18C0703328A5135F00C2CD0B /* Modules */,
+				18C0703028A5135F00C2CD0B /* Public */,
 				18C0701228A5128100C2CD0B /* Veriff */,
 				18C0701C28A5128100C2CD0B /* VeriffTests */,
 				18C0701128A5128100C2CD0B /* Products */,
+				5D4699F8EA4BE820A0023FAF /* Pods */,
+				9A84476A31F2509310FC2AC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +124,135 @@
 			path = VeriffTests;
 			sourceTree = "<group>";
 		};
+		18C0702828A5135F00C2CD0B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18C0702928A5135F00C2CD0B /* Ext+ UIViewController.swift */,
+			);
+			name = Extension;
+			path = Veriff/Extension;
+			sourceTree = "<group>";
+		};
+		18C0702A28A5135F00C2CD0B /* Cordinator */ = {
+			isa = PBXGroup;
+			children = (
+				18C0702B28A5135F00C2CD0B /* CoordinatorImpl.swift */,
+			);
+			name = Cordinator;
+			path = Veriff/Cordinator;
+			sourceTree = "<group>";
+		};
+		18C0702C28A5135F00C2CD0B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				18C0702D28A5135F00C2CD0B /* BuilderImpl.swift */,
+			);
+			name = Builder;
+			path = Veriff/Builder;
+			sourceTree = "<group>";
+		};
+		18C0702E28A5135F00C2CD0B /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				18C0702F28A5135F00C2CD0B /* Detector.swift */,
+			);
+			name = Detector;
+			path = Veriff/Detector;
+			sourceTree = "<group>";
+		};
+		18C0703028A5135F00C2CD0B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703128A5135F00C2CD0B /* Veriff.swift */,
+				18C0703228A5135F00C2CD0B /* VeriffSDKImpl.swift */,
+			);
+			name = Public;
+			path = Veriff/Public;
+			sourceTree = "<group>";
+		};
+		18C0703328A5135F00C2CD0B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703428A5135F00C2CD0B /* Selfie */,
+				18C0703A28A5135F00C2CD0B /* Passport */,
+			);
+			name = Modules;
+			path = Veriff/Modules;
+			sourceTree = "<group>";
+		};
+		18C0703428A5135F00C2CD0B /* Selfie */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703528A5135F00C2CD0B /* Presenter */,
+				18C0703728A5135F00C2CD0B /* View */,
+			);
+			path = Selfie;
+			sourceTree = "<group>";
+		};
+		18C0703528A5135F00C2CD0B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703628A5135F00C2CD0B /* SelfiePresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		18C0703728A5135F00C2CD0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703828A5135F00C2CD0B /* SelfieViewController.xib */,
+				18C0703928A5135F00C2CD0B /* SelfieViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C0703A28A5135F00C2CD0B /* Passport */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703B28A5135F00C2CD0B /* Presenter */,
+				18C0703D28A5135F00C2CD0B /* View */,
+			);
+			path = Passport;
+			sourceTree = "<group>";
+		};
+		18C0703B28A5135F00C2CD0B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		18C0703D28A5135F00C2CD0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C0703E28A5135F00C2CD0B /* PassportViewController.swift */,
+				18C0703F28A5135F00C2CD0B /* PassportViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D4699F8EA4BE820A0023FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A09BDABB46560C35028519E3 /* Pods-Veriff.debug.xcconfig */,
+				EAB2E49E3A23235514A2C80C /* Pods-Veriff.release.xcconfig */,
+				1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */,
+				53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A84476A31F2509310FC2AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05904F24766112D91F7C231 /* Pods_Veriff.framework */,
+				3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -100,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C0702228A5128100C2CD0B /* Build configuration list for PBXNativeTarget "Veriff" */;
 			buildPhases = (
+				EF213AD7C44C8CE987E0D9FB /* [CP] Check Pods Manifest.lock */,
 				18C0700B28A5128100C2CD0B /* Headers */,
 				18C0700C28A5128100C2CD0B /* Sources */,
 				18C0700D28A5128100C2CD0B /* Frameworks */,
@@ -118,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C0702528A5128100C2CD0B /* Build configuration list for PBXNativeTarget "VeriffTests" */;
 			buildPhases = (
+				4C95D7E2BFF182875F9E1348 /* [CP] Check Pods Manifest.lock */,
 				18C0701428A5128100C2CD0B /* Sources */,
 				18C0701528A5128100C2CD0B /* Frameworks */,
 				18C0701628A5128100C2CD0B /* Resources */,
@@ -174,6 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C0704B28A5135F00C2CD0B /* PassportViewController.xib in Resources */,
+				18C0704728A5135F00C2CD0B /* SelfieViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,11 +361,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C95D7E2BFF182875F9E1348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veriff-VeriffTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF213AD7C44C8CE987E0D9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veriff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18C0700C28A5128100C2CD0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C0704228A5135F00C2CD0B /* BuilderImpl.swift in Sources */,
+				18C0704128A5135F00C2CD0B /* CoordinatorImpl.swift in Sources */,
+				18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */,
+				18C0704928A5135F00C2CD0B /* PassportPresenterImpl.swift in Sources */,
+				18C0704028A5135F00C2CD0B /* Ext+ UIViewController.swift in Sources */,
+				18C0704328A5135F00C2CD0B /* Detector.swift in Sources */,
+				18C0704828A5135F00C2CD0B /* SelfieViewController.swift in Sources */,
+				18C0704528A5135F00C2CD0B /* VeriffSDKImpl.swift in Sources */,
+				18C0704628A5135F00C2CD0B /* SelfiePresenterImpl.swift in Sources */,
+				18C0704428A5135F00C2CD0B /* Veriff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +567,7 @@
 		};
 		18C0702328A5128100C2CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09BDABB46560C35028519E3 /* Pods-Veriff.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -362,6 +595,7 @@
 		};
 		18C0702428A5128100C2CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB2E49E3A23235514A2C80C /* Pods-Veriff.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -389,7 +623,9 @@
 		};
 		18C0702628A5128100C2CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -404,7 +640,9 @@
 		};
 		18C0702728A5128100C2CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
