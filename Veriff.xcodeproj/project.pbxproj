@@ -21,7 +21,7 @@
 		18C0704928A5135F00C2CD0B /* PassportPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */; };
 		18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703E28A5135F00C2CD0B /* PassportViewController.swift */; };
 		18C0704B28A5135F00C2CD0B /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0703F28A5135F00C2CD0B /* PassportViewController.xib */; };
-		18C0707228A5263000C2CD0B /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0707128A5263000C2CD0B /* CoordinatorImpl.swift */; };
+		18C070B728A52B5E00C2CD0B /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */; };
 		24A79BB1FBC054EB77DADAFA /* Pods_Veriff_VeriffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */; };
 		AE95FC483A0E574F62DF7545 /* Pods_Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05904F24766112D91F7C231 /* Pods_Veriff.framework */; };
 /* End PBXBuildFile section */
@@ -52,7 +52,7 @@
 		18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportPresenterImpl.swift; sourceTree = "<group>"; };
 		18C0703E28A5135F00C2CD0B /* PassportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
 		18C0703F28A5135F00C2CD0B /* PassportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassportViewController.xib; sourceTree = "<group>"; };
-		18C0707128A5263000C2CD0B /* CoordinatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
+		18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
 		1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.debug.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff_VeriffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.release.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		18C0700628A5128100C2CD0B = {
 			isa = PBXGroup;
 			children = (
-				18C0707028A5262300C2CD0B /* Coordinator */,
+				18C070B328A52B0500C2CD0B /* Coordinator */,
 				18C0702C28A5135F00C2CD0B /* Builder */,
 				18C0702E28A5135F00C2CD0B /* Detector */,
 				18C0702828A5135F00C2CD0B /* Extension */,
@@ -223,12 +223,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		18C0707028A5262300C2CD0B /* Coordinator */ = {
+		18C070B328A52B0500C2CD0B /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				18C0707128A5263000C2CD0B /* CoordinatorImpl.swift */,
+				18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */,
 			);
-			path = Coordinator;
+			name = Coordinator;
+			path = Veriff/Coordinator;
 			sourceTree = "<group>";
 		};
 		5D4699F8EA4BE820A0023FAF /* Pods */ = {
@@ -415,7 +416,7 @@
 				18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */,
 				18C0704928A5135F00C2CD0B /* PassportPresenterImpl.swift in Sources */,
 				18C0704028A5135F00C2CD0B /* Ext+ UIViewController.swift in Sources */,
-				18C0707228A5263000C2CD0B /* CoordinatorImpl.swift in Sources */,
+				18C070B728A52B5E00C2CD0B /* CoordinatorImpl.swift in Sources */,
 				18C0704328A5135F00C2CD0B /* Detector.swift in Sources */,
 				18C0704828A5135F00C2CD0B /* SelfieViewController.swift in Sources */,
 				18C0704528A5135F00C2CD0B /* VeriffSDKImpl.swift in Sources */,
