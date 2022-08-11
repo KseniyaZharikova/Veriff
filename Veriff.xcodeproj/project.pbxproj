@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				18C0702C28A5135F00C2CD0B /* Builder */,
-				18C0702A28A5135F00C2CD0B /* Cordinator */,
+				18C0702A28A5135F00C2CD0B /* Coordinator */,
 				18C0702E28A5135F00C2CD0B /* Detector */,
 				18C0702828A5135F00C2CD0B /* Extension */,
 				18C0703328A5135F00C2CD0B /* Modules */,
@@ -133,13 +133,13 @@
 			path = Veriff/Extension;
 			sourceTree = "<group>";
 		};
-		18C0702A28A5135F00C2CD0B /* Cordinator */ = {
+		18C0702A28A5135F00C2CD0B /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
 				18C0702B28A5135F00C2CD0B /* CoordinatorImpl.swift */,
 			);
-			name = Cordinator;
-			path = Veriff/Cordinator;
+			name = Coordinator;
+			path = Veriff/Coordinator;
 			sourceTree = "<group>";
 		};
 		18C0702C28A5135F00C2CD0B /* Builder */ = {
@@ -240,7 +240,6 @@
 				1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */,
 				53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
