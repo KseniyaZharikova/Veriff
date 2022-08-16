@@ -14,11 +14,9 @@
 		182685A728ABA2E800813708 /* VeriffSDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859128ABA2E800813708 /* VeriffSDKImpl.swift */; };
 		182685A828ABA2E800813708 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859328ABA2E800813708 /* Detector.swift */; };
 		182685A928ABA2E800813708 /* SelfiePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859728ABA2E800813708 /* SelfiePresenterImpl.swift */; };
-		182685AA28ABA2E800813708 /* SelfieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826859928ABA2E800813708 /* SelfieViewController.xib */; };
 		182685AB28ABA2E800813708 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859A28ABA2E800813708 /* SelfieViewController.swift */; };
 		182685AC28ABA2E800813708 /* PassportPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859D28ABA2E800813708 /* PassportPresenterImpl.swift */; };
 		182685AD28ABA2E800813708 /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859F28ABA2E800813708 /* PassportViewController.swift */; };
-		182685AE28ABA2E800813708 /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182685A028ABA2E800813708 /* PassportViewController.xib */; };
 		182685AF28ABA2E800813708 /* BuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182685A228ABA2E800813708 /* BuilderImpl.swift */; };
 		18C0701928A5128100C2CD0B /* Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0701028A5128100C2CD0B /* Veriff.framework */; };
 		18C0701E28A5128100C2CD0B /* VeriffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0701D28A5128100C2CD0B /* VeriffTests.swift */; };
@@ -340,8 +338,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182685AE28ABA2E800813708 /* PassportViewController.xib in Resources */,
-				182685AA28ABA2E800813708 /* SelfieViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
