@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelfieViewController" customModule="Veriff" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner">
             <connections>
                 <outlet property="view" destination="cCT-l3-5Oo" id="NkP-PC-fas"/>
             </connections>
@@ -62,12 +62,24 @@ photo.</string>
                 <constraint firstItem="go1-Xm-ZNR" firstAttribute="leading" secondItem="RBX-CN-c8c" secondAttribute="leading" constant="32" id="swi-pa-u8N"/>
                 <constraint firstItem="RBX-CN-c8c" firstAttribute="trailing" secondItem="go1-Xm-ZNR" secondAttribute="trailing" constant="32" id="zWa-oc-vh9"/>
             </constraints>
-            <point key="canvasLocation" x="529" y="-565"/>
+            <point key="canvasLocation" x="543" y="-627"/>
         </view>
+        <viewController restorationIdentifier="SelfieViewController" id="UkM-iG-Aae" customClass="SelfieViewController" customModule="Veriff" customModuleProvider="target">
+            <view key="view" contentMode="scaleToFill" id="bRU-RK-6y4">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <viewLayoutGuide key="safeArea" id="EFB-Dj-qqP"/>
+                <color key="backgroundColor" systemColor="systemRedColor"/>
+            </view>
+            <point key="canvasLocation" x="1430" y="-669"/>
+        </viewController>
     </objects>
     <resources>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
