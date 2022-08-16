@@ -27,10 +27,14 @@ s.source = { :git => "https://github.com/KseniyaZharikova/Veriff.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "Veriff/**/*.{swift,xib}"
+s.source_files = "Veriff/**/*.{swift,h,m,xib,storyboard}"
 
 # 9
 s.resources = "Veriff/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
+s.resource_bundles = {
+    'Veriff' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
 
 # 10
 s.swift_version = "4.2"
