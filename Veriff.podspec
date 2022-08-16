@@ -27,7 +27,7 @@ s.source = { :git => "https://github.com/KseniyaZharikova/Veriff.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "Veriff/**/*.{swift}"
+s.source_files = "Veriff/**/*.{swift,xib}"
 
 # 9
 s.resources = "Veriff/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"

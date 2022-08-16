@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182685A328ABA2E800813708 /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826858B28ABA2E800813708 /* CoordinatorImpl.swift */; };
+		182685A428ABA2E800813708 /* Ext+ UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826858D28ABA2E800813708 /* Ext+ UIViewController.swift */; };
+		182685A528ABA2E800813708 /* Veriff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1826858E28ABA2E800813708 /* Veriff.h */; };
+		182685A628ABA2E800813708 /* Veriff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859028ABA2E800813708 /* Veriff.swift */; };
+		182685A728ABA2E800813708 /* VeriffSDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859128ABA2E800813708 /* VeriffSDKImpl.swift */; };
+		182685A828ABA2E800813708 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859328ABA2E800813708 /* Detector.swift */; };
+		182685A928ABA2E800813708 /* SelfiePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859728ABA2E800813708 /* SelfiePresenterImpl.swift */; };
+		182685AA28ABA2E800813708 /* SelfieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826859928ABA2E800813708 /* SelfieViewController.xib */; };
+		182685AB28ABA2E800813708 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859A28ABA2E800813708 /* SelfieViewController.swift */; };
+		182685AC28ABA2E800813708 /* PassportPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859D28ABA2E800813708 /* PassportPresenterImpl.swift */; };
+		182685AD28ABA2E800813708 /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826859F28ABA2E800813708 /* PassportViewController.swift */; };
+		182685AE28ABA2E800813708 /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182685A028ABA2E800813708 /* PassportViewController.xib */; };
+		182685AF28ABA2E800813708 /* BuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182685A228ABA2E800813708 /* BuilderImpl.swift */; };
 		18C0701928A5128100C2CD0B /* Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0701028A5128100C2CD0B /* Veriff.framework */; };
 		18C0701E28A5128100C2CD0B /* VeriffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0701D28A5128100C2CD0B /* VeriffTests.swift */; };
-		18C0701F28A5128100C2CD0B /* Veriff.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C0701328A5128100C2CD0B /* Veriff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18C0704028A5135F00C2CD0B /* Ext+ UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702928A5135F00C2CD0B /* Ext+ UIViewController.swift */; };
-		18C0704228A5135F00C2CD0B /* BuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702D28A5135F00C2CD0B /* BuilderImpl.swift */; };
-		18C0704328A5135F00C2CD0B /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0702F28A5135F00C2CD0B /* Detector.swift */; };
-		18C0704428A5135F00C2CD0B /* Veriff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703128A5135F00C2CD0B /* Veriff.swift */; };
-		18C0704528A5135F00C2CD0B /* VeriffSDKImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703228A5135F00C2CD0B /* VeriffSDKImpl.swift */; };
-		18C0704628A5135F00C2CD0B /* SelfiePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703628A5135F00C2CD0B /* SelfiePresenterImpl.swift */; };
-		18C0704728A5135F00C2CD0B /* SelfieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0703828A5135F00C2CD0B /* SelfieViewController.xib */; };
-		18C0704828A5135F00C2CD0B /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703928A5135F00C2CD0B /* SelfieViewController.swift */; };
-		18C0704928A5135F00C2CD0B /* PassportPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */; };
-		18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703E28A5135F00C2CD0B /* PassportViewController.swift */; };
-		18C0704B28A5135F00C2CD0B /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0703F28A5135F00C2CD0B /* PassportViewController.xib */; };
-		18C070B728A52B5E00C2CD0B /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */; };
 		A56DDEFB5953E36F33A69CC9 /* Pods_Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0024F226736851A15899E7 /* Pods_Veriff.framework */; };
 		EE60AA3CAC22BE0ED7E0CAD6 /* Pods_Veriff_VeriffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */; };
 /* End PBXBuildFile section */
@@ -37,22 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1826858B28ABA2E800813708 /* CoordinatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
+		1826858D28ABA2E800813708 /* Ext+ UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+ UIViewController.swift"; sourceTree = "<group>"; };
+		1826858E28ABA2E800813708 /* Veriff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Veriff.h; sourceTree = "<group>"; };
+		1826859028ABA2E800813708 /* Veriff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Veriff.swift; sourceTree = "<group>"; };
+		1826859128ABA2E800813708 /* VeriffSDKImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriffSDKImpl.swift; sourceTree = "<group>"; };
+		1826859328ABA2E800813708 /* Detector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		1826859728ABA2E800813708 /* SelfiePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfiePresenterImpl.swift; sourceTree = "<group>"; };
+		1826859928ABA2E800813708 /* SelfieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieViewController.xib; sourceTree = "<group>"; };
+		1826859A28ABA2E800813708 /* SelfieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
+		1826859D28ABA2E800813708 /* PassportPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportPresenterImpl.swift; sourceTree = "<group>"; };
+		1826859F28ABA2E800813708 /* PassportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
+		182685A028ABA2E800813708 /* PassportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassportViewController.xib; sourceTree = "<group>"; };
+		182685A228ABA2E800813708 /* BuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuilderImpl.swift; sourceTree = "<group>"; };
 		18C0701028A5128100C2CD0B /* Veriff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Veriff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18C0701328A5128100C2CD0B /* Veriff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Veriff.h; sourceTree = "<group>"; };
 		18C0701828A5128100C2CD0B /* VeriffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C0701D28A5128100C2CD0B /* VeriffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriffTests.swift; sourceTree = "<group>"; };
-		18C0702928A5135F00C2CD0B /* Ext+ UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+ UIViewController.swift"; sourceTree = "<group>"; };
-		18C0702D28A5135F00C2CD0B /* BuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuilderImpl.swift; sourceTree = "<group>"; };
-		18C0702F28A5135F00C2CD0B /* Detector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
-		18C0703128A5135F00C2CD0B /* Veriff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Veriff.swift; sourceTree = "<group>"; };
-		18C0703228A5135F00C2CD0B /* VeriffSDKImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeriffSDKImpl.swift; sourceTree = "<group>"; };
-		18C0703628A5135F00C2CD0B /* SelfiePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfiePresenterImpl.swift; sourceTree = "<group>"; };
-		18C0703828A5135F00C2CD0B /* SelfieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfieViewController.xib; sourceTree = "<group>"; };
-		18C0703928A5135F00C2CD0B /* SelfieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
-		18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportPresenterImpl.swift; sourceTree = "<group>"; };
-		18C0703E28A5135F00C2CD0B /* PassportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
-		18C0703F28A5135F00C2CD0B /* PassportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassportViewController.xib; sourceTree = "<group>"; };
-		18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
 		2719629678384792858A6FC3 /* Pods-Veriff-VeriffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.release.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.release.xcconfig"; sourceTree = "<group>"; };
 		741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff_VeriffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEB4467489D2AD956879B1E /* Pods-Veriff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.debug.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,16 +82,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1826858928ABA2E800813708 /* Veriff */ = {
+			isa = PBXGroup;
+			children = (
+				1826858A28ABA2E800813708 /* Coordinator */,
+				1826858C28ABA2E800813708 /* Extension */,
+				1826858E28ABA2E800813708 /* Veriff.h */,
+				1826858F28ABA2E800813708 /* Public */,
+				1826859228ABA2E800813708 /* Detector */,
+				1826859428ABA2E800813708 /* Modules */,
+				182685A128ABA2E800813708 /* Builder */,
+			);
+			path = Veriff;
+			sourceTree = "<group>";
+		};
+		1826858A28ABA2E800813708 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1826858B28ABA2E800813708 /* CoordinatorImpl.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1826858C28ABA2E800813708 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1826858D28ABA2E800813708 /* Ext+ UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1826858F28ABA2E800813708 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				1826859028ABA2E800813708 /* Veriff.swift */,
+				1826859128ABA2E800813708 /* VeriffSDKImpl.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		1826859228ABA2E800813708 /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				1826859328ABA2E800813708 /* Detector.swift */,
+			);
+			path = Detector;
+			sourceTree = "<group>";
+		};
+		1826859428ABA2E800813708 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1826859528ABA2E800813708 /* Selfie */,
+				1826859B28ABA2E800813708 /* Passport */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1826859528ABA2E800813708 /* Selfie */ = {
+			isa = PBXGroup;
+			children = (
+				1826859628ABA2E800813708 /* Presenter */,
+				1826859828ABA2E800813708 /* View */,
+			);
+			path = Selfie;
+			sourceTree = "<group>";
+		};
+		1826859628ABA2E800813708 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1826859728ABA2E800813708 /* SelfiePresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1826859828ABA2E800813708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1826859928ABA2E800813708 /* SelfieViewController.xib */,
+				1826859A28ABA2E800813708 /* SelfieViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1826859B28ABA2E800813708 /* Passport */ = {
+			isa = PBXGroup;
+			children = (
+				1826859C28ABA2E800813708 /* Presenter */,
+				1826859E28ABA2E800813708 /* View */,
+			);
+			path = Passport;
+			sourceTree = "<group>";
+		};
+		1826859C28ABA2E800813708 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1826859D28ABA2E800813708 /* PassportPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1826859E28ABA2E800813708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1826859F28ABA2E800813708 /* PassportViewController.swift */,
+				182685A028ABA2E800813708 /* PassportViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		182685A128ABA2E800813708 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				182685A228ABA2E800813708 /* BuilderImpl.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		18C0700628A5128100C2CD0B = {
 			isa = PBXGroup;
 			children = (
-				18C070B328A52B0500C2CD0B /* Coordinator */,
-				18C0702C28A5135F00C2CD0B /* Builder */,
-				18C0702E28A5135F00C2CD0B /* Detector */,
-				18C0702828A5135F00C2CD0B /* Extension */,
-				18C0703328A5135F00C2CD0B /* Modules */,
-				18C0703028A5135F00C2CD0B /* Public */,
-				18C0701228A5128100C2CD0B /* Veriff */,
+				1826858928ABA2E800813708 /* Veriff */,
 				18C0701C28A5128100C2CD0B /* VeriffTests */,
 				18C0701128A5128100C2CD0B /* Products */,
 				9A84476A31F2509310FC2AC5 /* Frameworks */,
@@ -108,128 +218,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18C0701228A5128100C2CD0B /* Veriff */ = {
-			isa = PBXGroup;
-			children = (
-				18C0701328A5128100C2CD0B /* Veriff.h */,
-			);
-			path = Veriff;
-			sourceTree = "<group>";
-		};
 		18C0701C28A5128100C2CD0B /* VeriffTests */ = {
 			isa = PBXGroup;
 			children = (
 				18C0701D28A5128100C2CD0B /* VeriffTests.swift */,
 			);
 			path = VeriffTests;
-			sourceTree = "<group>";
-		};
-		18C0702828A5135F00C2CD0B /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				18C0702928A5135F00C2CD0B /* Ext+ UIViewController.swift */,
-			);
-			name = Extension;
-			path = Veriff/Extension;
-			sourceTree = "<group>";
-		};
-		18C0702C28A5135F00C2CD0B /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				18C0702D28A5135F00C2CD0B /* BuilderImpl.swift */,
-			);
-			name = Builder;
-			path = Veriff/Builder;
-			sourceTree = "<group>";
-		};
-		18C0702E28A5135F00C2CD0B /* Detector */ = {
-			isa = PBXGroup;
-			children = (
-				18C0702F28A5135F00C2CD0B /* Detector.swift */,
-			);
-			name = Detector;
-			path = Veriff/Detector;
-			sourceTree = "<group>";
-		};
-		18C0703028A5135F00C2CD0B /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703128A5135F00C2CD0B /* Veriff.swift */,
-				18C0703228A5135F00C2CD0B /* VeriffSDKImpl.swift */,
-			);
-			name = Public;
-			path = Veriff/Public;
-			sourceTree = "<group>";
-		};
-		18C0703328A5135F00C2CD0B /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703428A5135F00C2CD0B /* Selfie */,
-				18C0703A28A5135F00C2CD0B /* Passport */,
-			);
-			name = Modules;
-			path = Veriff/Modules;
-			sourceTree = "<group>";
-		};
-		18C0703428A5135F00C2CD0B /* Selfie */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703528A5135F00C2CD0B /* Presenter */,
-				18C0703728A5135F00C2CD0B /* View */,
-			);
-			path = Selfie;
-			sourceTree = "<group>";
-		};
-		18C0703528A5135F00C2CD0B /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703628A5135F00C2CD0B /* SelfiePresenterImpl.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		18C0703728A5135F00C2CD0B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703828A5135F00C2CD0B /* SelfieViewController.xib */,
-				18C0703928A5135F00C2CD0B /* SelfieViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C0703A28A5135F00C2CD0B /* Passport */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703B28A5135F00C2CD0B /* Presenter */,
-				18C0703D28A5135F00C2CD0B /* View */,
-			);
-			path = Passport;
-			sourceTree = "<group>";
-		};
-		18C0703B28A5135F00C2CD0B /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703C28A5135F00C2CD0B /* PassportPresenterImpl.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		18C0703D28A5135F00C2CD0B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				18C0703E28A5135F00C2CD0B /* PassportViewController.swift */,
-				18C0703F28A5135F00C2CD0B /* PassportViewController.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18C070B328A52B0500C2CD0B /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */,
-			);
-			name = Coordinator;
-			path = Veriff/Coordinator;
 			sourceTree = "<group>";
 		};
 		9A84476A31F2509310FC2AC5 /* Frameworks */ = {
@@ -249,7 +243,6 @@
 				CF284D88C3D52645D6E87C0F /* Pods-Veriff-VeriffTests.debug.xcconfig */,
 				2719629678384792858A6FC3 /* Pods-Veriff-VeriffTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -260,7 +253,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C0701F28A5128100C2CD0B /* Veriff.h in Headers */,
+				182685A528ABA2E800813708 /* Veriff.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +340,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C0704B28A5135F00C2CD0B /* PassportViewController.xib in Resources */,
-				18C0704728A5135F00C2CD0B /* SelfieViewController.xib in Resources */,
+				182685AE28ABA2E800813708 /* PassportViewController.xib in Resources */,
+				182685AA28ABA2E800813708 /* SelfieViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,16 +406,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C0704228A5135F00C2CD0B /* BuilderImpl.swift in Sources */,
-				18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */,
-				18C0704928A5135F00C2CD0B /* PassportPresenterImpl.swift in Sources */,
-				18C0704028A5135F00C2CD0B /* Ext+ UIViewController.swift in Sources */,
-				18C070B728A52B5E00C2CD0B /* CoordinatorImpl.swift in Sources */,
-				18C0704328A5135F00C2CD0B /* Detector.swift in Sources */,
-				18C0704828A5135F00C2CD0B /* SelfieViewController.swift in Sources */,
-				18C0704528A5135F00C2CD0B /* VeriffSDKImpl.swift in Sources */,
-				18C0704628A5135F00C2CD0B /* SelfiePresenterImpl.swift in Sources */,
-				18C0704428A5135F00C2CD0B /* Veriff.swift in Sources */,
+				182685AD28ABA2E800813708 /* PassportViewController.swift in Sources */,
+				182685A828ABA2E800813708 /* Detector.swift in Sources */,
+				182685A728ABA2E800813708 /* VeriffSDKImpl.swift in Sources */,
+				182685AB28ABA2E800813708 /* SelfieViewController.swift in Sources */,
+				182685A928ABA2E800813708 /* SelfiePresenterImpl.swift in Sources */,
+				182685AF28ABA2E800813708 /* BuilderImpl.swift in Sources */,
+				182685AC28ABA2E800813708 /* PassportPresenterImpl.swift in Sources */,
+				182685A328ABA2E800813708 /* CoordinatorImpl.swift in Sources */,
+				182685A628ABA2E800813708 /* Veriff.swift in Sources */,
+				182685A428ABA2E800813708 /* Ext+ UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,15 +2,16 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelfieViewController" customModule="Veriff" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="cCT-l3-5Oo" id="NkP-PC-fas"/>
+                <outlet property="view" destination="cCT-l3-5Oo" id="VOd-tn-W3F"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -27,7 +28,7 @@
                         <color key="baseBackgroundColor" systemColor="secondaryLabelColor"/>
                     </buttonConfiguration>
                     <connections>
-                        <action selector="takePhotoAction:" destination="-1" eventType="touchUpInside" id="Lye-8m-pxH"/>
+                        <action selector="takePhotoAction:" destination="-1" eventType="touchUpInside" id="9c0-Se-T5J"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOa-Aa-3x2" userLabel="To progress with verification we need your selfie">
@@ -64,22 +65,10 @@ photo.</string>
             </constraints>
             <point key="canvasLocation" x="543" y="-627"/>
         </view>
-        <viewController restorationIdentifier="SelfieViewController" id="UkM-iG-Aae" customClass="SelfieViewController" customModule="Veriff" customModuleProvider="target">
-            <view key="view" contentMode="scaleToFill" id="bRU-RK-6y4">
-                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                <viewLayoutGuide key="safeArea" id="EFB-Dj-qqP"/>
-                <color key="backgroundColor" systemColor="systemRedColor"/>
-            </view>
-            <point key="canvasLocation" x="1430" y="-669"/>
-        </viewController>
     </objects>
     <resources>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
