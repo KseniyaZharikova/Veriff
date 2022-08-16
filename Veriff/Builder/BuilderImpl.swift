@@ -15,7 +15,7 @@ import UIKit
 
 final class BuilderImpl : Builder {
     func createSelfieModule(coordinator: Coordinator) -> UIViewController {
-        let view = SelfieViewController()
+        let view = SelfieViewController.loadFromNib()
         let detector = Detector()
         let presenter = SelfiePresenterImpl(view: view, detector: detector, coordinator: coordinator)
         view.presenter = presenter
