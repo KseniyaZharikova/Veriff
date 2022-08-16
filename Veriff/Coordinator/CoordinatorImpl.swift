@@ -28,9 +28,12 @@ final class CoordinatorImpl: Coordinator {
     
     func start(from viewController: UIViewController, delegate: VeriffCoordinatorDelegate) {
         self.delegate = delegate
+        
+        guard let vc = builder?.createSelfieModule(coordinator: self) else { return }
         let navigationController = UINavigationController()
-        guard let predictionViewController  = builder?.createSelfieModule(coordinator: self) else { return }
-        navigationController.viewControllers = [predictionViewController]
+        navigationController.viewControllers = [vc]
+        navigationController.modalPresentationStyle = .overFullScreen
+        self.navigationController = navigationController
         viewController.present(navigationController, animated: true)
     }
     

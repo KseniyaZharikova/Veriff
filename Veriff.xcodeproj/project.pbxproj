@@ -22,8 +22,8 @@
 		18C0704A28A5135F00C2CD0B /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0703E28A5135F00C2CD0B /* PassportViewController.swift */; };
 		18C0704B28A5135F00C2CD0B /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C0703F28A5135F00C2CD0B /* PassportViewController.xib */; };
 		18C070B728A52B5E00C2CD0B /* CoordinatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */; };
-		24A79BB1FBC054EB77DADAFA /* Pods_Veriff_VeriffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */; };
-		AE95FC483A0E574F62DF7545 /* Pods_Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05904F24766112D91F7C231 /* Pods_Veriff.framework */; };
+		A56DDEFB5953E36F33A69CC9 /* Pods_Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0024F226736851A15899E7 /* Pods_Veriff.framework */; };
+		EE60AA3CAC22BE0ED7E0CAD6 /* Pods_Veriff_VeriffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		18C0703E28A5135F00C2CD0B /* PassportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
 		18C0703F28A5135F00C2CD0B /* PassportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassportViewController.xib; sourceTree = "<group>"; };
 		18C070B628A52B5E00C2CD0B /* CoordinatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorImpl.swift; sourceTree = "<group>"; };
-		1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.debug.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff_VeriffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.release.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.release.xcconfig"; sourceTree = "<group>"; };
-		A09BDABB46560C35028519E3 /* Pods-Veriff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.debug.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.debug.xcconfig"; sourceTree = "<group>"; };
-		C05904F24766112D91F7C231 /* Pods_Veriff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAB2E49E3A23235514A2C80C /* Pods-Veriff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.release.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.release.xcconfig"; sourceTree = "<group>"; };
+		2719629678384792858A6FC3 /* Pods-Veriff-VeriffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.release.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.release.xcconfig"; sourceTree = "<group>"; };
+		741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff_VeriffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEB4467489D2AD956879B1E /* Pods-Veriff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.debug.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0024F226736851A15899E7 /* Pods_Veriff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF284D88C3D52645D6E87C0F /* Pods-Veriff-VeriffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.debug.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB16622319DB4CC10808744 /* Pods-Veriff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.release.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE95FC483A0E574F62DF7545 /* Pods_Veriff.framework in Frameworks */,
+				A56DDEFB5953E36F33A69CC9 /* Pods_Veriff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C0701928A5128100C2CD0B /* Veriff.framework in Frameworks */,
-				24A79BB1FBC054EB77DADAFA /* Pods_Veriff_VeriffTests.framework in Frameworks */,
+				EE60AA3CAC22BE0ED7E0CAD6 /* Pods_Veriff_VeriffTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +94,8 @@
 				18C0701228A5128100C2CD0B /* Veriff */,
 				18C0701C28A5128100C2CD0B /* VeriffTests */,
 				18C0701128A5128100C2CD0B /* Products */,
-				5D4699F8EA4BE820A0023FAF /* Pods */,
 				9A84476A31F2509310FC2AC5 /* Frameworks */,
+				A7B0B979DF874C55AD14E381 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,24 +232,25 @@
 			path = Veriff/Coordinator;
 			sourceTree = "<group>";
 		};
-		5D4699F8EA4BE820A0023FAF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A09BDABB46560C35028519E3 /* Pods-Veriff.debug.xcconfig */,
-				EAB2E49E3A23235514A2C80C /* Pods-Veriff.release.xcconfig */,
-				1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */,
-				53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		9A84476A31F2509310FC2AC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C05904F24766112D91F7C231 /* Pods_Veriff.framework */,
-				3C0197F3C06C9DBF49F00D58 /* Pods_Veriff_VeriffTests.framework */,
+				9E0024F226736851A15899E7 /* Pods_Veriff.framework */,
+				741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7B0B979DF874C55AD14E381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AEB4467489D2AD956879B1E /* Pods-Veriff.debug.xcconfig */,
+				EFB16622319DB4CC10808744 /* Pods-Veriff.release.xcconfig */,
+				CF284D88C3D52645D6E87C0F /* Pods-Veriff-VeriffTests.debug.xcconfig */,
+				2719629678384792858A6FC3 /* Pods-Veriff-VeriffTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,7 +567,7 @@
 		};
 		18C0702328A5128100C2CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A09BDABB46560C35028519E3 /* Pods-Veriff.debug.xcconfig */;
+			baseConfigurationReference = 8AEB4467489D2AD956879B1E /* Pods-Veriff.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -586,15 +587,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kseniya.Veriff;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18C0702428A5128100C2CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAB2E49E3A23235514A2C80C /* Pods-Veriff.release.xcconfig */;
+			baseConfigurationReference = EFB16622319DB4CC10808744 /* Pods-Veriff.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -614,15 +616,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kseniya.Veriff;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		18C0702628A5128100C2CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C1502DD79254D6D8B12DDEB /* Pods-Veriff-VeriffTests.debug.xcconfig */;
+			baseConfigurationReference = CF284D88C3D52645D6E87C0F /* Pods-Veriff-VeriffTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -639,7 +642,7 @@
 		};
 		18C0702728A5128100C2CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53992444333AF83BC98C3388 /* Pods-Veriff-VeriffTests.release.xcconfig */;
+			baseConfigurationReference = 2719629678384792858A6FC3 /* Pods-Veriff-VeriffTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
