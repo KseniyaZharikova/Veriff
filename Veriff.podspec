@@ -36,6 +36,8 @@ s.resource_bundles = {
     'Veriff' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
 
+s.exclude_files = "Classes/Exclude"
+
 # 10
 s.swift_version = "4.2"
 end
