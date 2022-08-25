@@ -6,8 +6,28 @@
 //
 
 import UIKit
+import SnapKit
 
 final class SelfieViewController: UIViewController {
+    
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 18)
+        label.textColor = .white
+        return label
+    }()
+    
+    lazy var descriptionLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 16)
+        label.textColor = .white
+        return label
+    }()
+    
+    lazy var takePhotoButton: UIButton = {
+        let button = UIButton()
+        return button
+    }()
     
     var presenter: SelfiePresenter!
     
@@ -18,11 +38,15 @@ final class SelfieViewController: UIViewController {
     
     func setUpUI() {
         navigationItem.title = "Step 1"
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        view.backgroundColor = .lightGray
     }
+    
     
     // MARK: - Actions
     
-    @IBAction func takePhotoAction(_ sender: Any) {
+   @objc func takePhotoAction(_ sender: Any) {
         openCamera(delegate: self)
     }
 }
