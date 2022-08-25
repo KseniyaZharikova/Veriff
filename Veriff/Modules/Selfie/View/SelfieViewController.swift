@@ -10,22 +10,36 @@ import SnapKit
 
 final class SelfieViewController: UIViewController {
     
-    lazy var titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 18)
+        label.font = UIFont.systemFont(ofSize: 20, weight: .medium)
         label.textColor = .white
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        label.text = "To progress with verification we need your selfie"
+        view.addSubview(label)
         return label
     }()
     
-    lazy var descriptionLabel: UILabel = {
+    private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 16)
         label.textColor = .white
+        label.textAlignment = .center
+        label.numberOfLines = 0
+        label.text = "Please make sure that your face is clearly visible and there are no other faces on the photo."
+        view.addSubview(label)
         return label
     }()
     
-    lazy var takePhotoButton: UIButton = {
+    private lazy var takePhotoButton: UIButton = {
         let button = UIButton()
+        button.backgroundColor = .white
+        button.setTitle("Take a photo", for: .normal)
+        button.setTitleColor(UIColor.gray, for: .normal)
+        button.layer.cornerRadius = 8
+        button.addTarget(self, action: #selector(takePhotoAction(_:)), for: .allEvents)
+        view.addSubview(button)
         return button
     }()
     
@@ -39,8 +53,25 @@ final class SelfieViewController: UIViewController {
     func setUpUI() {
         navigationItem.title = "Step 1"
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.titleTextAttributes = textAttributes
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .gray
+        
+        titleLabel.snp.makeConstraints {
+            $0.bottom.equalTo(descriptionLabel.snp.top).offset(-10)
+            $0.left.right.equalToSuperview().inset(20)
+        }
+        
+        descriptionLabel.snp.makeConstraints {
+            $0.centerY.equalToSuperview()
+            $0.left.right.equalToSuperview().inset(20)
+        }
+        
+        takePhotoButton.snp.makeConstraints {
+            $0.height.equalTo(54)
+            $0.left.right.equalToSuperview().inset(32)
+            $0.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-24)
+        }
     }
     
     

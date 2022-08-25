@@ -10,16 +10,16 @@ import UIKit
 
 protocol Coordinator {
     func start(from viewController: UIViewController, delegate: VeriffCoordinatorDelegate)
-    func didFinishFaceRecognition(result: Result<UIImage,ErrorReason>)
-    func didFinishDocumentRecognition(result: Result<[String],ErrorReason>)
+    func didFinishFaceRecognition(result: Result<UIImage,Veriff.ErrorReason>)
+    func didFinishDocumentRecognition(result: Result<[String],Veriff.ErrorReason>)
 }
 
 final class CoordinatorImpl: Coordinator {
     
     private var delegate: VeriffCoordinatorDelegate?
     private var builder: Builder?
-    private var faceRecognitionResult: Result<UIImage,ErrorReason>?
-    private var textRecognitionResult: Result<[String],ErrorReason>?
+    private var faceRecognitionResult: Result<UIImage,Veriff.ErrorReason>?
+    private var textRecognitionResult: Result<[String],Veriff.ErrorReason>?
     private var navigationController: UINavigationController?
     
     init(builder: Builder) {
@@ -37,12 +37,12 @@ final class CoordinatorImpl: Coordinator {
         viewController.present(navigationController, animated: true)
     }
     
-    func didFinishFaceRecognition(result: Result<UIImage,ErrorReason>) {
+    func didFinishFaceRecognition(result: Result<UIImage,Veriff.ErrorReason>) {
         faceRecognitionResult = result
         openPassportViewController()
     }
     
-    func didFinishDocumentRecognition(result: Result<[String],ErrorReason>) {
+    func didFinishDocumentRecognition(result: Result<[String],Veriff.ErrorReason>) {
         textRecognitionResult = result
         finish()
     }

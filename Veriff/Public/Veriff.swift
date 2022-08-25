@@ -9,6 +9,14 @@ import Foundation
 import UIKit
 
 public enum Veriff {
+    
+    public enum ErrorReason: Error {
+        case noFace
+        case moreThanOneFace
+        case noText
+        case internalError
+    }
+
     public typealias SDK = VeriffSDK
     public typealias Delegate = VeriffSDKDelegate
     
@@ -30,7 +38,7 @@ public protocol VeriffSDKDelegate {
 
 extension Veriff {
     public struct Results: Equatable {
-        var faceRecognitionResult: Result<UIImage,ErrorReason>
-        var textRecognitionResult: Result<[String],ErrorReason>
+        public var faceRecognitionResult: Result<UIImage,ErrorReason>
+        public var textRecognitionResult: Result<[String],ErrorReason>
     }
 }

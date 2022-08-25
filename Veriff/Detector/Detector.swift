@@ -8,16 +8,16 @@
 import Vision
 import UIKit
 
-enum ErrorReason: Error {
-    case noFace
-    case moreThanOneFace
-    case noText
-    case internalError
-}
+//public enum ErrorReason: Error {
+//    case noFace
+//    case moreThanOneFace
+//    case noText
+//    case internalError
+//}
 
 final class Detector {
     
-    func detectFace(image: UIImage, _ completion: @escaping (Result<UIImage, ErrorReason>) -> Void) {
+    func detectFace(image: UIImage, _ completion: @escaping (Result<UIImage, Veriff.ErrorReason>) -> Void) {
         let request = VNDetectFaceRectanglesRequest { (request, error) in
             if let _ = error {
                 completion(.failure(.internalError))
@@ -40,7 +40,7 @@ final class Detector {
         detect(image: image, reguest: request)
     }
     
-    func detectText(image: UIImage, _ completion: @escaping (Result<[String], ErrorReason>) -> Void) {
+    func detectText(image: UIImage, _ completion: @escaping (Result<[String], Veriff.ErrorReason>) -> Void) {
         let request = VNRecognizeTextRequest { (request, error) in
             if let _ = error {
                 completion(.failure(.internalError))

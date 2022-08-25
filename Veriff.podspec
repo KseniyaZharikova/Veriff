@@ -25,6 +25,7 @@ s.source = { :git => "https://github.com/KseniyaZharikova/Veriff.git",
 
 # 7
 s.framework = "UIKit"
+s.dependency 'SnapKit'
 
 # 8
 s.source_files = "Veriff/**/*.{swift,h,m,xib,storyboard}"
