@@ -8,13 +8,6 @@
 import Vision
 import UIKit
 
-//public enum ErrorReason: Error {
-//    case noFace
-//    case moreThanOneFace
-//    case noText
-//    case internalError
-//}
-
 final class Detector {
     
     func detectFace(image: UIImage, _ completion: @escaping (Result<UIImage, Veriff.ErrorReason>) -> Void) {

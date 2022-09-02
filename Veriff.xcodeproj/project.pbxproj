@@ -20,6 +20,7 @@
 		182685AF28ABA2E800813708 /* BuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182685A228ABA2E800813708 /* BuilderImpl.swift */; };
 		18C0701928A5128100C2CD0B /* Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0701028A5128100C2CD0B /* Veriff.framework */; };
 		18C0701E28A5128100C2CD0B /* VeriffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0701D28A5128100C2CD0B /* VeriffTests.swift */; };
+		18C55B7428C2727F0051A21C /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18C55B7328C2727F0051A21C /* gitignore */; };
 		A56DDEFB5953E36F33A69CC9 /* Pods_Veriff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0024F226736851A15899E7 /* Pods_Veriff.framework */; };
 		EE60AA3CAC22BE0ED7E0CAD6 /* Pods_Veriff_VeriffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		18C0701028A5128100C2CD0B /* Veriff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Veriff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C0701828A5128100C2CD0B /* VeriffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C0701D28A5128100C2CD0B /* VeriffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriffTests.swift; sourceTree = "<group>"; };
+		18C55B7328C2727F0051A21C /* gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
 		2719629678384792858A6FC3 /* Pods-Veriff-VeriffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff-VeriffTests.release.xcconfig"; path = "Target Support Files/Pods-Veriff-VeriffTests/Pods-Veriff-VeriffTests.release.xcconfig"; sourceTree = "<group>"; };
 		741363B65702EEFC12E80064 /* Pods_Veriff_VeriffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veriff_VeriffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEB4467489D2AD956879B1E /* Pods-Veriff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veriff.debug.xcconfig"; path = "Target Support Files/Pods-Veriff/Pods-Veriff.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 		18C0700628A5128100C2CD0B = {
 			isa = PBXGroup;
 			children = (
+				18C55B7328C2727F0051A21C /* gitignore */,
 				1826858928ABA2E800813708 /* Veriff */,
 				18C0701C28A5128100C2CD0B /* VeriffTests */,
 				18C0701128A5128100C2CD0B /* Products */,
@@ -335,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C55B7428C2727F0051A21C /* gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
