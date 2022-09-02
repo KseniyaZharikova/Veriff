@@ -1,6 +1,0 @@
-framework module Pods_Veriff_VeriffTests {
-  umbrella header "Pods-Veriff-VeriffTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
