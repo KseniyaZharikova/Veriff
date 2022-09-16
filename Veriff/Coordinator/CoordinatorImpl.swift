@@ -30,8 +30,7 @@ final class CoordinatorImpl: Coordinator {
         self.delegate = delegate
         
         guard let vc = builder?.createSelfieModule(coordinator: self) else { return }
-        let navigationController = UINavigationController()
-        navigationController.viewControllers = [vc]
+        let navigationController = UINavigationController(rootViewController: vc)
         navigationController.modalPresentationStyle = .overFullScreen
         self.navigationController = navigationController
         viewController.present(navigationController, animated: true)

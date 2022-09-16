@@ -13,7 +13,7 @@ import UIKit
     func createPassportModule(coordinator: Coordinator) -> UIViewController
 }
 
-final class BuilderImpl : Builder {
+final class BuilderImpl: Builder {
     func createSelfieModule(coordinator: Coordinator) -> UIViewController {
         let view = SelfieViewController()
         let detector = Detector()

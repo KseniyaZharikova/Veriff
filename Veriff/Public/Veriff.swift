@@ -38,7 +38,7 @@ public protocol VeriffSDKDelegate {
 
 extension Veriff {
     public struct Results: Equatable {
-        public var faceRecognitionResult: Result<UIImage,ErrorReason>
-        public var textRecognitionResult: Result<[String],ErrorReason>
+        public var faceRecognitionResult: Result<UIImage, ErrorReason>
+        public var textRecognitionResult: Result<[String], ErrorReason>
     }
 }

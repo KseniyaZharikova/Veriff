@@ -11,14 +11,13 @@ import UIKit
 protocol PassportView: AnyObject {}
 
 protocol PassportPresenter: AnyObject {
-    init(view: PassportView, detector: Detector, coordinator: Coordinator)
     func takedPhotoAction(image: UIImage?)
 }
 
 final class PassportPresenterImpl: PassportPresenter {
-    let view: PassportView
-    var coordinator: Coordinator?
-    let detector: Detector
+   private let view: PassportView
+   private var coordinator: Coordinator?
+   private let detector: Detector
     
     required init(view: PassportView, detector: Detector, coordinator: Coordinator) {
         self.view = view

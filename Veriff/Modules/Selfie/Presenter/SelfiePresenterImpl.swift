@@ -11,15 +11,14 @@ import UIKit
 protocol SelfieView: AnyObject {}
 
 protocol SelfiePresenter: AnyObject {
-    init(view:SelfieView, detector: Detector, coordinator: Coordinator)
     func takedPhotoAction(image: UIImage?)
 }
 
 final class SelfiePresenterImpl: SelfiePresenter {
    
-    let view: SelfieView 
-    var coordinator: Coordinator?
-    let detector: Detector
+   private let view: SelfieView
+   private var coordinator: Coordinator?
+   private let detector: Detector
     
     required init(view: SelfieView, detector: Detector, coordinator: Coordinator) {
         self.view = view

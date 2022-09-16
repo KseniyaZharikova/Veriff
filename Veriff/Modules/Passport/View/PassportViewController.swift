@@ -9,7 +9,43 @@ import Foundation
 import UIKit
 
 final class PassportViewController: UIViewController {
+
+    var presenter: PassportPresenter!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+    }
+    
+    func setupUI() {
+        navigationItem.title = "Step 2"
+        let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        view.backgroundColor = .gray
+        
+        titleLabel.snp.makeConstraints {
+            $0.bottom.equalTo(descriptionLabel.snp.top).offset(-10)
+            $0.left.right.equalToSuperview().inset(20)
+        }
+        
+        descriptionLabel.snp.makeConstraints {
+            $0.centerY.equalToSuperview()
+            $0.left.right.equalToSuperview().inset(20)
+        }
+        
+        takePhotoButton.snp.makeConstraints {
+            $0.height.equalTo(54)
+            $0.left.right.equalToSuperview().inset(32)
+            $0.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-24)
+        }
+    }
+    
+    // MARK: - Actions
+    
+    @objc func takePhotoAction(_ sender: Any) {
+        openCamera(delegate: self)
+    }
+
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 20, weight: .medium)
@@ -42,42 +78,6 @@ final class PassportViewController: UIViewController {
         view.addSubview(button)
         return button
     }()
-    
-    var presenter: PassportPresenter!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUpUI()
-    }
-    
-    func setUpUI() {
-        navigationItem.title = "Step 2"
-        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
-        navigationController?.navigationBar.titleTextAttributes = textAttributes
-        view.backgroundColor = .gray
-        
-        titleLabel.snp.makeConstraints {
-            $0.bottom.equalTo(descriptionLabel.snp.top).offset(-10)
-            $0.left.right.equalToSuperview().inset(20)
-        }
-        
-        descriptionLabel.snp.makeConstraints {
-            $0.centerY.equalToSuperview()
-            $0.left.right.equalToSuperview().inset(20)
-        }
-        
-        takePhotoButton.snp.makeConstraints {
-            $0.height.equalTo(54)
-            $0.left.right.equalToSuperview().inset(32)
-            $0.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).offset(-24)
-        }
-    }
-    
-    // MARK: - Actions
-    
-    @objc func takePhotoAction(_ sender: Any) {
-        openCamera(delegate: self)
-    }
 }
 
 extension PassportViewController: PickerControllerDelegate {
